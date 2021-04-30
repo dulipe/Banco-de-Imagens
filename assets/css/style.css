@@ -27,3 +27,30 @@ main img{
     border: 6px solid #fff;
     border-radius: 4px;
 }
+
+main input{
+    border: none;
+    padding: 10px;
+    border-radius: 3px 0px 0px 3px;
+    outline: none;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: transparent;
+    border: solid 1px #fff;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 0px 3px 3px 0px;
+    cursor:pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: #292929;
+    transition: 0.2s;
+}
