@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #1c1c1c;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+    padding: 28px 0;
+}
+
+main #container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+main img{
+    margin: 10px;
+    border: 6px solid #fff;
+    border-radius: 4px;
+}
